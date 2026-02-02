@@ -1,120 +1,93 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="id" class="dark scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Complete Survival Sodium Modpack 1.20.1</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Survival Sodium Modpack 1.20.1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { background-color: #0a0a0a; color: #ededed; font-family: 'Inter', sans-serif; }
+        .glass-card { background: rgba(23, 23, 23, 0.8); border: 1px solid #262626; backdrop-filter: blur(10px); }
+        .btn-glow:hover { box-shadow: 0 0 15px rgba(59, 130, 246, 0.5); }
+    </style>
 </head>
-<body>
-  <div class="container">
-    <header>
-      <h1>Complete Survival Sodium Modpack 1.20.1</h1>
-      <p class="subtitle">Daftar Mod Pilihan untuk Petualangan Bertahan Hidup yang Lebih Seru</p>
-      
-      <div class="download-buttons">
-        <a href="https://sfl.gl/hNhAcmqn" class="btn btn-primary">Download Modpack</a> | 
-        <a href="#install-guide" class="btn btn-secondary">Install Guide</a>
-      </div>
-    </header>
+<body class="selection:bg-blue-500/30">
 
-    <section class="mod-list">
-      <h2>Daftar Mod </h2>
-      <ul>
-        Download Mod Satu-Satu ↓↓
-      <ul>
-        <li><a href="https://modrinth.com/mod/accurate-block-placement" target="_blank">Accurate Block Placement</a></li>
-        <li><a href="https://modrinth.com/mod/aesthetic-and-performant" target="_blank">Aesthetic and Performant</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/appleskin" target="_blank">Appleskin |  CurseForge</a> | <a href="https://modrinth.com/mod/appleskin" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/bedrockium" target="_blank">Bedrockium</a></li>
-         <li><a href="https://modrinth.com/mod/better-biome-blend" target="_blank">Better Biome Blend</a></li>
-         <li><a href="https://modrinth.com/mod/booster-brightness" target="_blank">Booster Brightness</a></li>
-         <li><a href="https://modrinth.com/mod/bsvsb" target="_blank">BSVSB</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/c2me-fabric" target="_blank">C2ME |  CurseForge</a> | <a href="https://modrinth.com/mod/c2me-fabric" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/cloth-config" target="_blank">Cloth Config | CurseForge</a> | <a href="https://modrinth.com/mod/cloth-config" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/crypton" target="_blank">Crypton</a></li>
-         <li><a href="https://modrinth.com/mod/dark-loading-screen" target="_blank">Dark Loading Screen</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/debugify" target="_blank">Debugify |  CurseForge</a> | <a href="https://modrinth.com/mod/debugify" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/enhanced-block-entities" target="_blank">Enhanced Block Entities | CurseForge</a> | <a href="https://modrinth.com/mod/enhanced-block-entities" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/entity-culling" target="_blank">Entity Culling | CurseForge</a> | <a href="https://modrinth.com/mod/entity-culling" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-api" target="_blank">Fabric API | CurseForge</a> | <a href="https://modrinth.com/mod/fabric-api" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin" target="_blank">Fabric Language Kotlin | CurseForge</a> | <a href="https://modrinth.com/mod/fabric-language-kotlin" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/fast-chest" target="_blank">Fast Chest</a></li>
-         <li><a href="https://modrinth.com/mod/fast-items" target="_blank">Fast Items</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/ferritecore" target="_blank">FerriteCore | CurseForge</a> | <a href="https://modrinth.com/mod/ferritecore" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/force-close-loading-screen" target="_blank">Force Close Loading Screen</a></li>
-         <li><a href="https://modrinth.com/mod/freecam" target="_blank">Freecam Modrinth Edition</a></li>
-         <li><a href="https://modrinth.com/mod/indium" target="_blank">Indium</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lazydfu" target="_blank">LazyDFU | CurseForge</a> | <a href="https://modrinth.com/mod/lazydfu" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/lithium" target="_blank">Lithium | CurseForge</a> | <a href="https://modrinth.com/mod/lithium" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/memory-leak-fix" target="_blank">Memory Leak Fix | CurseForge</a> | <a href="https://modrinth.com/mod/memory-leak-fix" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/modmenu" target="_blank">Mod Menu |  CurseForge</a> | <a href="https://modrinth.com/mod/modmenu" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/more-culling" target="_blank">More Culling | CurseForge</a> | <a href="https://modrinth.com/mod/more-culling" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/packet-fixer" target="_blank">Packet Fixer</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options" target="_blank">Reeses Sodium Options | CurseForge</a> | <a href="https://modrinth.com/mod/reeses-sodium-options" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/servercore" target="_blank">Server Core</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/shulkerboxtooltip" target="_blank">Shulker Box Tooltip | CurseForge</a> | <a href="https://modrinth.com/mod/shulkerboxtooltip" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/smoke-suppression" target="_blank">Smoke Suppression</a></li>
-         <li><a href="https://modrinth.com/mod/smooth-scrolling-everywhere" target="_blank">Smooth Scrolling Everywhere</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sodium" target="_blank">Sodium |  CurseForge</a> | <a href="https://modrinth.com/mod/sodium" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/sodium-extra" target="_blank">Sodium Extra CurseForge</a> | <a href="https://modrinth.com/mod/sodium-extra" target="_blank">Modrinth</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/starlight" target="_blank">Starlight | CurseForge</a> | <a href="https://modrinth.com/mod/starlight" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/stutterfix" target="_blank">Stutterfix</a></li>
-         <li><a href="https://www.curseforge.com/minecraft/mc-mods/yet-another-config-lib" target="_blank">Yet Another Config Lib | CurseForge</a> | <a href="https://modrinth.com/mod/yacl" target="_blank">Modrinth</a></li>
-         <li><a href="https://modrinth.com/mod/vmp" target="_blank">Very Many Players</a></li>
-         <li><a href="https://modrinth.com/mod/colormeoutlines" target="_blank">Wraith-Colormeoutlines</a></li>
-         <li><a href="https://modrinth.com/mod/zoomify" target="_blank">Zoomify</a></li>
-        <!-- All other mod list items -->
-        
-        </li>
-      </ul>
-    </section>
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        <header class="text-center mb-16 space-y-6">
+            <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-400">
+                Complete Survival Sodium
+            </h1>
+            <p class="text-neutral-400 text-lg max-w-2xl mx-auto">
+                Daftar Mod Pilihan untuk Petualangan Bertahan Hidup yang Lebih Seru di Minecraft 1.20.1.
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="https://sfl.gl/hNhAcmqn" class="btn-glow bg-blue-600 hover:bg-blue-500 text-white px-8 py-3 rounded-full font-medium transition-all transform hover:scale-105">
+                    Download Modpack
+                </a>
+                <a href="#install-guide" class="bg-neutral-800 hover:bg-neutral-700 text-white px-8 py-3 rounded-full font-medium transition-all border border-neutral-700">
+                    Install Guide
+                </a>
+            </div>
+        </header>
 
-    <section id="install-guide" class="install-section">
-      <h2>📚 Panduan Instalasi Lengkap</h2>
-      
-      <div class="guide-step">
-        <h3><span class="step-number">1</span> Persyaratan Sistem</h3>
-        <p>Sebelum menginstal, pastikan:</p>
-        <ul>
-          <li><strong>RAM:</strong> Minimal 2GB (rekomendasi 4GB+ untuk 43+ mod)</li>
-          <li><strong>Java:</strong> Versi 17 atau terbaru (64-bit)</li>
-          <li><strong>Minecraft:</strong> Versi 1.20.1 sudah terinstal</li>
-          <li><strong>Fabric:</strong> Versi 0.16.10 atau lebih baru</li>
-          <li><strong>Renderer:</strong> Mobile Glues Atau Holy Gl4es</li>
-        </ul>
-      </div>
-      
-      <!-- Other guide steps -->
-      
-      <a href="#" class="back-to-top">↑ Kembali ke Atas</a>
-    </section>
+        <section id="install-guide" class="grid md:grid-cols-2 gap-6 mb-20">
+            <div class="glass-card p-8 rounded-2xl">
+                <div class="flex items-center gap-3 mb-4 text-blue-400">
+                    <i data-lucide="cpu"></i>
+                    <h2 class="text-xl font-bold">Persyaratan Sistem</h2>
+                </div>
+                <ul class="space-y-3 text-neutral-400">
+                    <li class="flex justify-between border-b border-neutral-800 pb-2"><span>RAM</span> <span class="text-white">Minimal 2GB (Rec 4GB+)</span></li>
+                    <li class="flex justify-between border-b border-neutral-800 pb-2"><span>Java</span> <span class="text-white">Java 17 (64-bit)</span></li>
+                    <li class="flex justify-between border-b border-neutral-800 pb-2"><span>Fabric</span> <span class="text-white">0.16.10+</span></li>
+                </ul>
+            </div>
+            <div class="glass-card p-8 rounded-2xl">
+                <div class="flex items-center gap-3 mb-4 text-green-400">
+                    <i data-lucide="download-cloud"></i>
+                    <h2 class="text-xl font-bold">Unduhan Tambahan</h2>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <a href="https://www.mediafire.com/file/0g4y2pjm55n7y6w/resourcepacks.zip/file" class="flex items-center justify-between p-3 rounded-lg bg-neutral-900/50 hover:bg-neutral-800 transition border border-neutral-800">
+                        Resource Packs <i data-lucide="external-link" class="w-4 h-4"></i>
+                    </a>
+                    <a href="https://www.mediafire.com/file/mpfm76cmafyyr1p/config.zip/file" class="flex items-center justify-between p-3 rounded-lg bg-neutral-900/50 hover:bg-neutral-800 transition border border-neutral-800">
+                        Config Files <i data-lucide="external-link" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
 
-    <section class="additional-downloads">
-      <h2>Unduhan Tambahan</h2>
-      <div class="download-buttons">
-        <a href="https://www.mediafire.com/file/0g4y2pjm55n7y6w/resourcepacks.zip/file" class="btn btn-secondary">Download Resource Packs</a> | 
-        <a href="https://www.mediafire.com/file/mpfm76cmafyyr1p/config.zip/file" class="btn btn-secondary">Download Config Files</a>
-      </div>
-    </section>
+        <section class="space-y-6">
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+                <h2 class="text-3xl font-bold">Mod List</h2>
+                <div class="relative">
+                    <i data-lucide="search" class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-neutral-500"></i>
+                    <input type="text" id="modSearch" placeholder="Cari mod..." class="bg-neutral-900 border border-neutral-800 rounded-lg py-2 pl-10 pr-4 focus:ring-2 focus:ring-blue-500 outline-none w-full md:w-64">
+                </div>
+            </div>
 
-    <div class="notes">
-      <h3>Catatan Penting:</h3>
-      <ul>
-        <li>Pastikan semua mod kompatibel dengan <strong>Minecraft 1.20.1</strong> dan <strong>Fabric</strong>.</li>
-        <!-- Other notes -->
-      </ul>
+            <div id="modContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                </div>
+        </section>
+
+        <footer class="mt-24 pt-12 border-t border-neutral-800 text-center text-neutral-500 text-sm">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12 text-left">
+                <div>
+                    <h4 class="text-white font-bold mb-4">Author</h4>
+                    <p>👤 Shin</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-bold mb-4">Channel</h4>
+                    <p>⌨️ Beta</p>
+                </div>
+            </div>
+            <p>© 2023 Sodium Modpack. Semua mod adalah hak cipta penciptanya.</p>
+        </footer>
     </div>
-  </div>
 
-  <footer>
-    <p> © 2023 Sodium Modpack | Hosted on GitHub Pages</p>
-    <p> semua mod adalah hak cipta para pembuatnya</p>
-    <p> 👤Author: Shin</p>
-    <p> ⌨️Cannel: Beta</p>
-  </footer>
-
-  <script src="js/main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
